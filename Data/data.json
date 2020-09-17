@@ -1,0 +1,1372 @@
+{
+    "FO": [
+        {
+            "REGION_ID": "9000001",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Центральный федеральный округ",
+            "CURATOR_ID": "1",
+            "OPERATOR_ID": "1"
+        },
+        {
+            "REGION_ID": "9000002",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Южный федеральный округ",
+            "CURATOR_ID": "2",
+            "OPERATOR_ID": "2"
+        },
+        {
+            "REGION_ID": "9000003",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Северо-Западный федеральный округ",
+            "CURATOR_ID": "1",
+            "OPERATOR_ID": "3"
+        },
+        {
+            "REGION_ID": "9000004",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Дальневосточный федеральный округ",
+            "CURATOR_ID": "3",
+            "OPERATOR_ID": "4"
+        },
+        {
+            "REGION_ID": "9000005",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Сибирский федеральный округ",
+            "CURATOR_ID": "3",
+            "OPERATOR_ID": "5"
+        },
+        {
+            "REGION_ID": "9000006",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Уральский федеральный округ",
+            "CURATOR_ID": "3",
+            "OPERATOR_ID": "6"
+        },
+        {
+            "REGION_ID": "9000007",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Приволжский федеральный округ",
+            "CURATOR_ID": "1",
+            "OPERATOR_ID": "7"
+        },
+        {
+            "REGION_ID": "9000008",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Северо-Кавказский федеральный округ",
+            "CURATOR_ID": "2",
+            "OPERATOR_ID": "8"
+        }
+    ],
+    "SUBJECTS": [
+        {
+            "REGION_ID": "1209975",
+            "PARENT_REGION_ID": "9000001",
+            "VALUE_SUM": "2342",
+            "VALUE_WOMEN_KID": "240",
+            "VALUE_WOMEN_ADULT": "580",
+            "VALUE_WOMEN_SENIOR": "285",
+            "VALUE_MEN_KID": "199",
+            "VALUE_MEN_ADULT": "655",
+            "VALUE_MEN_SENIOR": "383",
+            "REGION_NAME": "Москва"
+        },
+        {
+            "REGION_ID": "1210475",
+            "PARENT_REGION_ID": "9000001",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Московская область"
+        },
+        {
+            "REGION_ID": "1171031",
+            "PARENT_REGION_ID": "9000001",
+            "VALUE_SUM": "179",
+            "VALUE_WOMEN_KID": "10",
+            "VALUE_WOMEN_ADULT": "57",
+            "VALUE_WOMEN_SENIOR": "23",
+            "VALUE_MEN_KID": "11",
+            "VALUE_MEN_ADULT": "55",
+            "VALUE_MEN_SENIOR": "23",
+            "REGION_NAME": "Тверская область"
+        },
+        {
+            "REGION_ID": "1181365",
+            "PARENT_REGION_ID": "9000001",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Калужская область"
+        },
+        {
+            "REGION_ID": "1262864",
+            "PARENT_REGION_ID": "9000001",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Смоленская область"
+        },
+        {
+            "REGION_ID": "1120524",
+            "PARENT_REGION_ID": "9000002",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Краснодарский край"
+        },
+        {
+            "REGION_ID": "1143778",
+            "PARENT_REGION_ID": "9000002",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Волгоградская область"
+        },
+        {
+            "REGION_ID": "2200002",
+            "PARENT_REGION_ID": "9000002",
+            "VALUE_SUM": "1063",
+            "VALUE_WOMEN_KID": "103",
+            "VALUE_WOMEN_ADULT": "240",
+            "VALUE_WOMEN_SENIOR": "200",
+            "VALUE_MEN_KID": "122",
+            "VALUE_MEN_ADULT": "261",
+            "VALUE_MEN_SENIOR": "137",
+            "REGION_NAME": "Республика Крым"
+        },
+        {
+            "REGION_ID": "2200003",
+            "PARENT_REGION_ID": "9000002",
+            "VALUE_SUM": "1339",
+            "VALUE_WOMEN_KID": "165",
+            "VALUE_WOMEN_ADULT": "330",
+            "VALUE_WOMEN_SENIOR": "200",
+            "VALUE_MEN_KID": "145",
+            "VALUE_MEN_ADULT": "360",
+            "VALUE_MEN_SENIOR": "139",
+            "REGION_NAME": "Севастополь"
+        },
+        {
+            "REGION_ID": "1249220",
+            "PARENT_REGION_ID": "9000002",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Ростовская область"
+        },
+        {
+            "REGION_ID": "1203936",
+            "PARENT_REGION_ID": "9000003",
+            "VALUE_SUM": "1995",
+            "VALUE_WOMEN_KID": "200",
+            "VALUE_WOMEN_ADULT": "490",
+            "VALUE_WOMEN_SENIOR": "340",
+            "VALUE_MEN_KID": "210",
+            "VALUE_MEN_ADULT": "490",
+            "VALUE_MEN_SENIOR": "265",
+            "REGION_NAME": "Санкт-Петербург"
+        },
+        {
+            "REGION_ID": "1204092",
+            "PARENT_REGION_ID": "9000003",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Ленинградская область"
+        },
+        {
+            "REGION_ID": "1300033",
+            "PARENT_REGION_ID": "9000003",
+            "VALUE_SUM": "767",
+            "VALUE_WOMEN_KID": "95",
+            "VALUE_WOMEN_ADULT": "205",
+            "VALUE_WOMEN_SENIOR": "50",
+            "VALUE_MEN_KID": "92",
+            "VALUE_MEN_ADULT": "265",
+            "VALUE_MEN_SENIOR": "60",
+            "REGION_NAME": "Республика Карелия"
+        },
+        {
+            "REGION_ID": "1217738",
+            "PARENT_REGION_ID": "9000003",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Мурманская область"
+        },
+        {
+            "REGION_ID": "1217915",
+            "PARENT_REGION_ID": "9000003",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0",
+            "REGION_NAME": "Новгородская область"
+        },
+        {
+            "REGION_ID": "4",
+            "PARENT_REGION_ID": "9000004",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "4",
+            "PARENT_REGION_ID": "9000004",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "4",
+            "PARENT_REGION_ID": "9000004",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "4",
+            "PARENT_REGION_ID": "9000004",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "4",
+            "PARENT_REGION_ID": "9000004",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "4",
+            "PARENT_REGION_ID": "9000004",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "5",
+            "PARENT_REGION_ID": "9000005",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "5",
+            "PARENT_REGION_ID": "9000005",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "5",
+            "PARENT_REGION_ID": "9000005",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "5",
+            "PARENT_REGION_ID": "9000005",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "5",
+            "PARENT_REGION_ID": "9000005",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "6",
+            "PARENT_REGION_ID": "9000006",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "6",
+            "PARENT_REGION_ID": "9000006",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "6",
+            "PARENT_REGION_ID": "9000006",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "6",
+            "PARENT_REGION_ID": "9000006",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "6",
+            "PARENT_REGION_ID": "9000006",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "7",
+            "PARENT_REGION_ID": "9000007",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "7",
+            "PARENT_REGION_ID": "9000007",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "7",
+            "PARENT_REGION_ID": "9000007",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "7",
+            "PARENT_REGION_ID": "9000007",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "7",
+            "PARENT_REGION_ID": "9000007",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "8",
+            "PARENT_REGION_ID": "9000008",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "8",
+            "PARENT_REGION_ID": "9000008",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "8",
+            "PARENT_REGION_ID": "9000008",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "8",
+            "PARENT_REGION_ID": "9000008",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        },
+        {
+            "REGION_ID": "8",
+            "PARENT_REGION_ID": "9000008",
+            "VALUE_SUM": "0",
+            "VALUE_WOMEN_KID": "0",
+            "VALUE_WOMEN_ADULT": "0",
+            "VALUE_WOMEN_SENIOR": "0",
+            "VALUE_MEN_KID": "0",
+            "VALUE_MEN_ADULT": "0",
+            "VALUE_MEN_SENIOR": "0"
+        }
+    ],
+    "ROUTES": [
+        {
+            "ID": "1",
+            "PARENT_REGION_ID": "1209975",
+            "VALUE_SUM": "167",
+            "VALUE_WOMEN_KID": "10",
+            "VALUE_WOMEN_ADULT": "40",
+            "VALUE_WOMEN_SENIOR": "25",
+            "VALUE_MEN_KID": "9",
+            "VALUE_MEN_ADULT": "50",
+            "VALUE_MEN_SENIOR": "33",
+            "REGION_NAME": "Москва",
+            "CITY_FROM_ID": "45000000000",
+            "CITY_TO_ID": "46221501000",
+            "CITY_FROM": "Москва",
+            "CITY_TO": "Клин"
+        },
+        {
+            "ID": "2",
+            "PARENT_REGION_ID": "1209975",
+            "VALUE_SUM": "167",
+            "VALUE_WOMEN_KID": "60",
+            "VALUE_WOMEN_ADULT": "190",
+            "VALUE_WOMEN_SENIOR": "40",
+            "VALUE_MEN_KID": "50",
+            "VALUE_MEN_ADULT": "185",
+            "VALUE_MEN_SENIOR": "50",
+            "REGION_NAME": "Москва",
+            "CITY_FROM_ID": "45000000000",
+            "CITY_TO_ID": "46241501000",
+            "CITY_FROM": "Москва",
+            "CITY_TO": "Одинцово"
+        },
+        {
+            "ID": "3",
+            "PARENT_REGION_ID": "1209975",
+            "VALUE_SUM": "575",
+            "VALUE_WOMEN_KID": "170",
+            "VALUE_WOMEN_ADULT": "350",
+            "VALUE_WOMEN_SENIOR": "220",
+            "VALUE_MEN_KID": "140",
+            "VALUE_MEN_ADULT": "420",
+            "VALUE_MEN_SENIOR": "300",
+            "REGION_NAME": "Москва",
+            "CITY_FROM_ID": "45000000000",
+            "CITY_TO_ID": "46483000000",
+            "CITY_FROM": "Москва",
+            "CITY_TO": "Химки"
+        },
+        {
+            "ID": "4",
+            "PARENT_REGION_ID": "1171031",
+            "VALUE_SUM": "81",
+            "VALUE_WOMEN_KID": "2",
+            "VALUE_WOMEN_ADULT": "24",
+            "VALUE_WOMEN_SENIOR": "13",
+            "VALUE_MEN_KID": "3",
+            "VALUE_MEN_ADULT": "25",
+            "VALUE_MEN_SENIOR": "14",
+            "REGION_NAME": "Тверская область",
+            "CITY_FROM_ID": "28401000000",
+            "CITY_TO_ID": "28222501000",
+            "CITY_FROM": "Тверь",
+            "CITY_TO": "Калязин"
+        },
+        {
+            "ID": "5",
+            "PARENT_REGION_ID": "1171031",
+            "VALUE_SUM": "55",
+            "VALUE_WOMEN_KID": "5",
+            "VALUE_WOMEN_ADULT": "18",
+            "VALUE_WOMEN_SENIOR": "7",
+            "VALUE_MEN_KID": "4",
+            "VALUE_MEN_ADULT": "15",
+            "VALUE_MEN_SENIOR": "6",
+            "REGION_NAME": "Тверская область",
+            "CITY_FROM_ID": "28222501000",
+            "CITY_TO_ID": "28450000000",
+            "CITY_FROM": "Калязин",
+            "CITY_TO": "Торжок"
+        },
+        {
+            "ID": "6",
+            "PARENT_REGION_ID": "1171031",
+            "VALUE_SUM": "43",
+            "VALUE_WOMEN_KID": "3",
+            "VALUE_WOMEN_ADULT": "15",
+            "VALUE_WOMEN_SENIOR": "3",
+            "VALUE_MEN_KID": "4",
+            "VALUE_MEN_ADULT": "15",
+            "VALUE_MEN_SENIOR": "3",
+            "REGION_NAME": "Тверская область",
+            "CITY_FROM_ID": "28401000000",
+            "CITY_TO_ID": "28445000000",
+            "CITY_FROM": "Тверь",
+            "CITY_TO": "Ржев"
+        },
+        {
+            "ID": "7",
+            "PARENT_REGION_ID": "1203936",
+            "VALUE_SUM": "805",
+            "VALUE_WOMEN_KID": "110",
+            "VALUE_WOMEN_ADULT": "180",
+            "VALUE_WOMEN_SENIOR": "120",
+            "VALUE_MEN_KID": "100",
+            "VALUE_MEN_ADULT": "190",
+            "VALUE_MEN_SENIOR": "105",
+            "REGION_NAME": "Санкт-Петербург",
+            "CITY_FROM_ID": "40000000000",
+            "CITY_TO_ID": "41417000000",
+            "CITY_FROM": "Санкт-Петербург",
+            "CITY_TO": "Выборг"
+        },
+        {
+            "ID": "8",
+            "PARENT_REGION_ID": "1203936",
+            "VALUE_SUM": "370",
+            "VALUE_WOMEN_KID": "20",
+            "VALUE_WOMEN_ADULT": "90",
+            "VALUE_WOMEN_SENIOR": "70",
+            "VALUE_MEN_KID": "30",
+            "VALUE_MEN_ADULT": "110",
+            "VALUE_MEN_SENIOR": "50",
+            "REGION_NAME": "Санкт-Петербург",
+            "CITY_FROM_ID": "40000000000",
+            "CITY_TO_ID": "41448000000",
+            "CITY_FROM": "Санкт-Петербург",
+            "CITY_TO": "Приозерск"
+        },
+        {
+            "ID": "9",
+            "PARENT_REGION_ID": "1203936",
+            "VALUE_SUM": "820",
+            "VALUE_WOMEN_KID": "70",
+            "VALUE_WOMEN_ADULT": "220",
+            "VALUE_WOMEN_SENIOR": "150",
+            "VALUE_MEN_KID": "80",
+            "VALUE_MEN_ADULT": "190",
+            "VALUE_MEN_SENIOR": "110",
+            "REGION_NAME": "Санкт-Петербург",
+            "CITY_FROM_ID": "40000000000",
+            "CITY_TO_ID": "40277000000",
+            "CITY_FROM": "Санкт-Петербург",
+            "CITY_TO": "Колпино"
+        },
+        {
+            "ID": "10",
+            "PARENT_REGION_ID": "1300033",
+            "VALUE_SUM": "220",
+            "VALUE_WOMEN_KID": "30",
+            "VALUE_WOMEN_ADULT": "60",
+            "VALUE_WOMEN_SENIOR": "15",
+            "VALUE_MEN_KID": "25",
+            "VALUE_MEN_ADULT": "80",
+            "VALUE_MEN_SENIOR": "10",
+            "REGION_NAME": "Карелия",
+            "CITY_FROM_ID": "86401000000",
+            "CITY_TO_ID": "86215501000",
+            "CITY_FROM": "Петрозаводск",
+            "CITY_TO": "Кондопога"
+        },
+        {
+            "ID": "11",
+            "PARENT_REGION_ID": "1300033",
+            "VALUE_SUM": "165",
+            "VALUE_WOMEN_KID": "20",
+            "VALUE_WOMEN_ADULT": "45",
+            "VALUE_WOMEN_SENIOR": "10",
+            "VALUE_MEN_KID": "15",
+            "VALUE_MEN_ADULT": "55",
+            "VALUE_MEN_SENIOR": "20",
+            "REGION_NAME": "Карелия",
+            "CITY_FROM_ID": "86224501000",
+            "CITY_TO_ID": "86410000000",
+            "CITY_FROM": "Медвежьегорск",
+            "CITY_TO": "Сортавала"
+        },
+        {
+            "ID": "12",
+            "PARENT_REGION_ID": "1300033",
+            "VALUE_SUM": "382",
+            "VALUE_WOMEN_KID": "45",
+            "VALUE_WOMEN_ADULT": "100",
+            "VALUE_WOMEN_SENIOR": "25",
+            "VALUE_MEN_KID": "52",
+            "VALUE_MEN_ADULT": "130",
+            "VALUE_MEN_SENIOR": "30",
+            "REGION_NAME": "Карелия",
+            "CITY_FROM_ID": "86410000000",
+            "CITY_TO_ID": "86401000000",
+            "CITY_FROM": "Сортавала",
+            "CITY_TO": "Петрозаводск"
+        },
+        {
+            "ID": "13",
+            "PARENT_REGION_ID": "2200003",
+            "VALUE_SUM": "540",
+            "VALUE_WOMEN_KID": "55",
+            "VALUE_WOMEN_ADULT": "150",
+            "VALUE_WOMEN_SENIOR": "70",
+            "VALUE_MEN_KID": "50",
+            "VALUE_MEN_ADULT": "170",
+            "VALUE_MEN_SENIOR": "45",
+            "REGION_NAME": "Севастополь",
+            "CITY_FROM_ID": "67269000000",
+            "CITY_TO_ID": "35419000000",
+            "CITY_FROM": "Севастополь",
+            "CITY_TO": "Ялта"
+        },
+        {
+            "ID": "14",
+            "PARENT_REGION_ID": "2200003",
+            "VALUE_SUM": "547",
+            "VALUE_WOMEN_KID": "80",
+            "VALUE_WOMEN_ADULT": "130",
+            "VALUE_WOMEN_SENIOR": "90",
+            "VALUE_MEN_KID": "70",
+            "VALUE_MEN_ADULT": "120",
+            "VALUE_MEN_SENIOR": "57",
+            "REGION_NAME": "Севастополь",
+            "CITY_FROM_ID": "67269000000",
+            "CITY_TO_ID": "35401000000",
+            "CITY_FROM": "Севастополь",
+            "CITY_TO": "Симферополь"
+        },
+        {
+            "ID": "15",
+            "PARENT_REGION_ID": "2200003",
+            "VALUE_SUM": "252",
+            "VALUE_WOMEN_KID": "30",
+            "VALUE_WOMEN_ADULT": "50",
+            "VALUE_WOMEN_SENIOR": "40",
+            "VALUE_MEN_KID": "25",
+            "VALUE_MEN_ADULT": "70",
+            "VALUE_MEN_SENIOR": "37",
+            "REGION_NAME": "Севастополь",
+            "CITY_FROM_ID": "67269000000",
+            "CITY_TO_ID": "67263505000",
+            "CITY_FROM": "Севастополь",
+            "CITY_TO": "Инкерман"
+        },
+        {
+            "ID": "13",
+            "PARENT_REGION_ID": "2200002",
+            "VALUE_SUM": "330",
+            "VALUE_WOMEN_KID": "30",
+            "VALUE_WOMEN_ADULT": "80",
+            "VALUE_WOMEN_SENIOR": "50",
+            "VALUE_MEN_KID": "40",
+            "VALUE_MEN_ADULT": "90",
+            "VALUE_MEN_SENIOR": "40",
+            "REGION_NAME": "Крым",
+            "CITY_FROM_ID": "35412000000",
+            "CITY_TO_ID": "35419000000",
+            "CITY_FROM": "Керчь",
+            "CITY_TO": "Ялта"
+        },
+        {
+            "ID": "14",
+            "PARENT_REGION_ID": "2200002",
+            "VALUE_SUM": "392",
+            "VALUE_WOMEN_KID": "40",
+            "VALUE_WOMEN_ADULT": "90",
+            "VALUE_WOMEN_SENIOR": "70",
+            "VALUE_MEN_KID": "40",
+            "VALUE_MEN_ADULT": "105",
+            "VALUE_MEN_SENIOR": "47",
+            "REGION_NAME": "Крым",
+            "CITY_FROM_ID": "35412000000",
+            "CITY_TO_ID": "35401000000",
+            "CITY_FROM": "Керчь",
+            "CITY_TO": "Симферополь"
+        },
+        {
+            "ID": "15",
+            "PARENT_REGION_ID": "2200002",
+            "VALUE_SUM": "341",
+            "VALUE_WOMEN_KID": "33",
+            "VALUE_WOMEN_ADULT": "70",
+            "VALUE_WOMEN_SENIOR": "80",
+            "VALUE_MEN_KID": "42",
+            "VALUE_MEN_ADULT": "66",
+            "VALUE_MEN_SENIOR": "50",
+            "REGION_NAME": "Крым",
+            "CITY_FROM_ID": "35412000000",
+            "CITY_TO_ID": "35417000000",
+            "CITY_FROM": "Керчь",
+            "CITY_TO": "Феодосия"
+        }
+    ],
+    "CITIES": [
+        {
+            "CITY_OKATO_ID": "45000000000",
+            "NAME": "Москва",
+            "PARENT_REGION_ID": "1209975",
+            "PARENT_REGION_NAME": "Москва",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "45272580000",
+            "NAME": "Зеленоград",
+            "PARENT_REGION_ID": "1209975",
+            "PARENT_REGION_NAME": "Москва",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "45297581001",
+            "NAME": "Щербинка",
+            "PARENT_REGION_ID": "1209975",
+            "PARENT_REGION_NAME": "Москва",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "45297565001",
+            "NAME": "Московский",
+            "PARENT_REGION_ID": "1209975",
+            "PARENT_REGION_NAME": "Москва",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "45298578000",
+            "NAME": "Троицк",
+            "PARENT_REGION_ID": "1209975",
+            "PARENT_REGION_NAME": "Москва",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "46221501000",
+            "NAME": "Клин",
+            "PARENT_REGION_ID": "1210475",
+            "PARENT_REGION_NAME": "Московская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "46241501000",
+            "NAME": "Одинцово",
+            "PARENT_REGION_ID": "1210475",
+            "PARENT_REGION_NAME": "Московская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "46483000000",
+            "NAME": "Химки",
+            "PARENT_REGION_ID": "1210475",
+            "PARENT_REGION_NAME": "Московская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "46446000000",
+            "NAME": "Мытищи",
+            "PARENT_REGION_ID": "1210475",
+            "PARENT_REGION_NAME": "Московская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "46208501000",
+            "NAME": "Дмитров",
+            "PARENT_REGION_ID": "1210475",
+            "PARENT_REGION_NAME": "Московская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "28401000000",
+            "NAME": "Тверь",
+            "PARENT_REGION_ID": "1171031",
+            "PARENT_REGION_NAME": "Тверская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "28222501000",
+            "NAME": "Калязин",
+            "PARENT_REGION_ID": "1171031",
+            "PARENT_REGION_NAME": "Тверская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "28450000000",
+            "NAME": "Торжок",
+            "PARENT_REGION_ID": "1171031",
+            "PARENT_REGION_NAME": "Тверская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "28445000000",
+            "NAME": "Ржев",
+            "PARENT_REGION_ID": "1171031",
+            "PARENT_REGION_NAME": "Тверская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "28414000000",
+            "NAME": "В. Волочек",
+            "PARENT_REGION_ID": "1171031",
+            "PARENT_REGION_NAME": "Тверская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "29401000000",
+            "NAME": "Калуга",
+            "PARENT_REGION_ID": "1181365",
+            "PARENT_REGION_NAME": "Калужская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "29415000000",
+            "NAME": "Обнинск",
+            "PARENT_REGION_ID": "1181365",
+            "PARENT_REGION_NAME": "Калужская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "29250501000",
+            "NAME": "Юхнов",
+            "PARENT_REGION_ID": "1181365",
+            "PARENT_REGION_NAME": "Калужская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "29236501000",
+            "NAME": "Сухиничи",
+            "PARENT_REGION_ID": "1181365",
+            "PARENT_REGION_NAME": "Калужская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "29216501000",
+            "NAME": "Козельск",
+            "PARENT_REGION_ID": "1181365",
+            "PARENT_REGION_NAME": "Калужская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "66401000000",
+            "NAME": "Смоленск",
+            "PARENT_REGION_ID": "1262864",
+            "PARENT_REGION_NAME": "Смоленская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "66208501000",
+            "NAME": "Гагарин",
+            "PARENT_REGION_ID": "1262864",
+            "PARENT_REGION_NAME": "Смоленская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "66214501000",
+            "NAME": "Дорогобуж",
+            "PARENT_REGION_ID": "1262864",
+            "PARENT_REGION_NAME": "Смоленская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "66410000000",
+            "NAME": "Десногорск",
+            "PARENT_REGION_ID": "1262864",
+            "PARENT_REGION_NAME": "Смоленская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "66236501000",
+            "NAME": "Рославль",
+            "PARENT_REGION_ID": "1262864",
+            "PARENT_REGION_NAME": "Смоленская область",
+            "FO_ID": "9000001"
+        },
+        {
+            "CITY_OKATO_ID": "3401370000",
+            "NAME": "Краснодар",
+            "PARENT_REGION_ID": "1120524",
+            "PARENT_REGION_NAME": "Краснодарский край",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "3405000000",
+            "NAME": "Армавир",
+            "PARENT_REGION_ID": "1120524",
+            "PARENT_REGION_NAME": "Краснодарский край",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "3408000000",
+            "NAME": "Геленджик",
+            "PARENT_REGION_ID": "1120524",
+            "PARENT_REGION_NAME": "Краснодарский край",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "3426000000",
+            "NAME": "Сочи",
+            "PARENT_REGION_ID": "1120524",
+            "PARENT_REGION_NAME": "Краснодарский край",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "3420000000",
+            "NAME": "Новороссийск",
+            "PARENT_REGION_ID": "1120524",
+            "PARENT_REGION_NAME": "Краснодарский край",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "18401380000",
+            "NAME": "Волгоград",
+            "PARENT_REGION_ID": "1143778",
+            "PARENT_REGION_NAME": "Волгоградская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "18425000000",
+            "NAME": "Урюпинск",
+            "PARENT_REGION_ID": "1143779",
+            "PARENT_REGION_NAME": "Волгоградская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "18410000000",
+            "NAME": "Волжский",
+            "PARENT_REGION_ID": "1143780",
+            "PARENT_REGION_NAME": "Волгоградская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "18415000000",
+            "NAME": "Камышин",
+            "PARENT_REGION_ID": "1143781",
+            "PARENT_REGION_NAME": "Волгоградская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "18428000000",
+            "NAME": "Фролово",
+            "PARENT_REGION_ID": "1143782",
+            "PARENT_REGION_NAME": "Волгоградская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "35401000000",
+            "NAME": "Симферополь",
+            "PARENT_REGION_ID": "2200002",
+            "PARENT_REGION_NAME": "Республика Крым",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "35412000000",
+            "NAME": "Керчь",
+            "PARENT_REGION_ID": "2200002",
+            "PARENT_REGION_NAME": "Республика Крым",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "35419000000",
+            "NAME": "Ялта",
+            "PARENT_REGION_ID": "2200002",
+            "PARENT_REGION_NAME": "Республика Крым",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "35417000000",
+            "NAME": "Феодосия",
+            "PARENT_REGION_ID": "2200002",
+            "PARENT_REGION_NAME": "Республика Крым",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "35409000000",
+            "NAME": "Евпатория",
+            "PARENT_REGION_ID": "2200002",
+            "PARENT_REGION_NAME": "Республика Крым",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "67269000000",
+            "NAME": "Севастополь",
+            "PARENT_REGION_ID": "2200003",
+            "PARENT_REGION_NAME": "Севастополь",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "67263505000",
+            "NAME": "Инкерман",
+            "PARENT_REGION_ID": "2200003",
+            "PARENT_REGION_NAME": "Севастополь",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "60401000000",
+            "NAME": "Ростов-на-Дону",
+            "PARENT_REGION_ID": "1249220",
+            "PARENT_REGION_NAME": "Ростовская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "60437000000",
+            "NAME": "Таганрог",
+            "PARENT_REGION_ID": "1249220",
+            "PARENT_REGION_NAME": "Ростовская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "60407000000",
+            "NAME": "Батайск",
+            "PARENT_REGION_ID": "1249220",
+            "PARENT_REGION_NAME": "Ростовская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "60440000000",
+            "NAME": "Шахты",
+            "PARENT_REGION_ID": "1249220",
+            "PARENT_REGION_NAME": "Ростовская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "60412000000",
+            "NAME": "Волгодонск",
+            "PARENT_REGION_ID": "1249220",
+            "PARENT_REGION_NAME": "Ростовская область",
+            "FO_ID": "9000002"
+        },
+        {
+            "CITY_OKATO_ID": "40000000000",
+            "NAME": "Санкт-Петербург",
+            "PARENT_REGION_ID": "1203936",
+            "PARENT_REGION_NAME": "Санкт-Петербург",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "40281520000",
+            "NAME": "Сестрорецк",
+            "PARENT_REGION_ID": "1203936",
+            "PARENT_REGION_NAME": "Санкт-Петербург",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "40280000000",
+            "NAME": "Кронштадт",
+            "PARENT_REGION_ID": "1203936",
+            "PARENT_REGION_NAME": "Санкт-Петербург",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "40277000000",
+            "NAME": "Колпино",
+            "PARENT_REGION_ID": "1203936",
+            "PARENT_REGION_NAME": "Санкт-Петербург",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "40281509000",
+            "NAME": "Зеленогорск",
+            "PARENT_REGION_ID": "1203936",
+            "PARENT_REGION_NAME": "Санкт-Петербург",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "41417000000",
+            "NAME": "Выборг",
+            "PARENT_REGION_ID": "1204092",
+            "PARENT_REGION_NAME": "Ленинградская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "41466000000",
+            "NAME": "Тосно",
+            "PARENT_REGION_ID": "1204092",
+            "PARENT_REGION_NAME": "Ленинградская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "41413000000",
+            "NAME": "Всеволожск",
+            "PARENT_REGION_ID": "1204092",
+            "PARENT_REGION_NAME": "Ленинградская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "41448000000",
+            "NAME": "Приозерск",
+            "PARENT_REGION_ID": "1204092",
+            "PARENT_REGION_NAME": "Ленинградская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "41454000000",
+            "NAME": "Сосновый Бор",
+            "PARENT_REGION_ID": "1204092",
+            "PARENT_REGION_NAME": "Ленинградская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "86401000000",
+            "NAME": "Петрозаводск",
+            "PARENT_REGION_ID": "1300033",
+            "PARENT_REGION_NAME": "Республика Карелия",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "86224501000",
+            "NAME": "Медвежьегорск",
+            "PARENT_REGION_ID": "1300033",
+            "PARENT_REGION_NAME": "Республика Карелия",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "86215501000",
+            "NAME": "Кондопога",
+            "PARENT_REGION_ID": "1300033",
+            "PARENT_REGION_NAME": "Республика Карелия",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "86410000000",
+            "NAME": "Сортавала",
+            "PARENT_REGION_ID": "1300033",
+            "PARENT_REGION_NAME": "Республика Карелия",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "86406000000",
+            "NAME": "Костомукша",
+            "PARENT_REGION_ID": "1300033",
+            "PARENT_REGION_NAME": "Республика Карелия",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "47401000000",
+            "NAME": "Мурманск",
+            "PARENT_REGION_ID": "1217738",
+            "PARENT_REGION_NAME": "Мурманская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "47530000000",
+            "NAME": "Североморск",
+            "PARENT_REGION_ID": "1217738",
+            "PARENT_REGION_NAME": "Мурманская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "47412000000",
+            "NAME": "Кировск",
+            "PARENT_REGION_ID": "1217738",
+            "PARENT_REGION_NAME": "Мурманская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "47417000000",
+            "NAME": "Оленегорск",
+            "PARENT_REGION_ID": "1217738",
+            "PARENT_REGION_NAME": "Мурманская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "47202501000",
+            "NAME": "Кандалакша",
+            "PARENT_REGION_ID": "1217738",
+            "PARENT_REGION_NAME": "Мурманская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "49401000000",
+            "NAME": "Новгород Великий",
+            "PARENT_REGION_ID": "1217915",
+            "PARENT_REGION_NAME": "Новгородская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "49413000000",
+            "NAME": "Старая Русса",
+            "PARENT_REGION_ID": "1217915",
+            "PARENT_REGION_NAME": "Новгородская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "49208501000",
+            "NAME": "Валдай",
+            "PARENT_REGION_ID": "1217915",
+            "PARENT_REGION_NAME": "Новгородская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "49250501000",
+            "NAME": "Чудово",
+            "PARENT_REGION_ID": "1217915",
+            "PARENT_REGION_NAME": "Новгородская область",
+            "FO_ID": "9000003"
+        },
+        {
+            "CITY_OKATO_ID": "49228501000",
+            "NAME": "Окуловка",
+            "PARENT_REGION_ID": "1217915",
+            "PARENT_REGION_NAME": "Новгородская область",
+            "FO_ID": "9000003"
+        }
+    ]
+}
