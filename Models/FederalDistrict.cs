@@ -1,12 +1,18 @@
-using System.Collections.Generic;
 using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+using GridWebApp.Models.Interfaces;
 
 namespace GridWebApp.Models
 {
-    public class FederalDistrict
+    //Федеральный округ
+    [Table("districts")]
+    public class FederalDistrict : IModel
     {
         [JsonProperty("REGION_ID")]
-        public int Id { get; set; }
+        [Key]
+        public long Id { get; set; }
 
         [JsonProperty("REGION_NAME")]
         public string Name { get; set; }
@@ -40,7 +46,5 @@ namespace GridWebApp.Models
 
         [JsonProperty("OPERATOR_ID")]
         public int OperatorId { get; set; }
-
-        public List<RfSubject> Subjects { get; set; }
     }
 }

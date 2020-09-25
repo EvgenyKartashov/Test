@@ -1,9 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,19 +15,12 @@ namespace GridWebApp
             var host = CreateHostBuilder(args).Build();
 
             using (var scope = host.Services.CreateScope())
-            {               
+            {
                 var services = scope.ServiceProvider;
-                var logger = services.GetRequiredService<ILogger<Program>>();
-                try
-                {
-                    var context = services.GetRequiredService<ApplicationContext>();
-                    DbInitializer.Initialize(context);
-                    logger.LogInformation("database initialized!");
-                }
-                catch (Exception ex)
-                {
-                    logger.LogError(ex, "An error occurred while seeding the database.");
-                }
+                var logger = services.GetRequiredService<ILogger<DbInitializer>>();
+                var context = services.GetRequiredService<ApplicationContext>();
+
+                DbInitializer.Initialize(logger, context);
             }
 
             host.Run();

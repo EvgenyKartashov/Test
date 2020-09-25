@@ -6,10 +6,11 @@ using GridWebApp.Models.Interfaces;
 
 namespace GridWebApp.Models
 {
-    [Table("routes")]
-    public class Route : IModel
+    //Субъект РФ
+    [Table("subjects")]
+    public class Subject : IModel
     {
-        [JsonProperty("ID")]
+        [JsonProperty("REGION_ID")]
         [Key]
         public long Id { get; set; }
 
@@ -42,19 +43,5 @@ namespace GridWebApp.Models
 
         [JsonProperty("VALUE_SUM")]
         public int Sum { get; set; }
-
-
-        [JsonProperty("CITY_FROM_ID")]
-        public long CityFromId { get; set; }
-
-        [JsonProperty("CITY_TO_ID")]
-        public long CityToId { get; set; }
-
-
-        [JsonProperty("CITY_FROM")]
-        public string CityFrom { get; set; }
-
-        [JsonProperty("CITY_TO")]
-        public string CityTo { get; set; }
     }
 }
