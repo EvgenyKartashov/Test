@@ -16,7 +16,8 @@ namespace GridWebApp.Data
     public class DbInitializer
     {
         public static void Initialize(ILogger<DbInitializer> logger, ApplicationContext context)
-        {
+        {           
+            //context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
 
             if (context.FederalDistricts.Any() ||
@@ -48,15 +49,33 @@ namespace GridWebApp.Data
                 var routes = JsonConvert.DeserializeObject<IEnumerable<Route>>(routesJson).Filter();
                 var cities = JsonConvert.DeserializeObject<IEnumerable<City>>(citiesJson).Filter();
 
-                using (context)
+                foreach (var federalDistrict in federalDistricts)
                 {
-                    context.FederalDistricts.AddRange(federalDistricts);
-                    context.Subjects.AddRange(subjects);
-                    context.Routes.AddRange(routes);
-                    context.Cities.AddRange(cities);
+                    foreach (var subject in subjects)
+                    {
+                        if (subject.ParentId == federalDistrict.Id)
+                        federalDistrict.Subjects.Add(subject);
+                        
+                        foreach (var city in cities)
+                        {
+                            if (city.ParentId == subject.Id)
+                                subject.Cities.Add(city);
+                        }
 
-                    context.SaveChanges();
+                        foreach (var route in routes)
+                        {
+                            if (route.ParentId == subject.Id)
+                                subject.Routes.Add(route);
+                        }
+                    }
                 }
+
+                context.FederalDistricts.AddRange(federalDistricts);
+                context.Subjects.AddRange(subjects);
+                context.Routes.AddRange(routes);
+                context.Cities.AddRange(cities);
+
+                context.SaveChanges();
 
                 logger.LogInformation("database initialized!");
             }

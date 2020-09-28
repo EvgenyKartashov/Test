@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+
 using GridWebApp.Models;
 
 namespace GridWebApp.Repository
@@ -11,6 +12,6 @@ namespace GridWebApp.Repository
         public DbSet<City> Cities { get; set; }
 
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
-        {}
+        { }
     }
 }

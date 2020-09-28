@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -10,6 +11,11 @@ namespace GridWebApp.Models
     [Table("districts")]
     public class FederalDistrict : IModel
     {
+        public FederalDistrict()
+        {
+            Subjects = new List<Subject>();
+        }
+        
         [JsonProperty("REGION_ID")]
         [Key]
         public long Id { get; set; }
@@ -46,5 +52,7 @@ namespace GridWebApp.Models
 
         [JsonProperty("OPERATOR_ID")]
         public int OperatorId { get; set; }
+
+        public List<Subject> Subjects { get; set; }
     }
 }

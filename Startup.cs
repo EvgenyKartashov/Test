@@ -5,8 +5,10 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using GridWebApp.Repository;
 using Microsoft.EntityFrameworkCore;
+
+using GridWebApp.Repository;
+using GridWebApp.Services;
 
 namespace GridWebApp
 {
@@ -30,6 +32,8 @@ namespace GridWebApp
             {
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            services.AddScoped<ApplicationService>();
 
             services.AddControllersWithViews();
         }

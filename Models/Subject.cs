@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -10,6 +11,12 @@ namespace GridWebApp.Models
     [Table("subjects")]
     public class Subject : IModel
     {
+        public Subject()
+        {
+            Cities = new List<City>();
+            Routes = new List<Route>();
+        }
+        
         [JsonProperty("REGION_ID")]
         [Key]
         public long Id { get; set; }
@@ -43,5 +50,9 @@ namespace GridWebApp.Models
 
         [JsonProperty("VALUE_SUM")]
         public int Sum { get; set; }
+
+        public List<City> Cities { get; set; }
+
+        public List<Route> Routes { get; set; }
     }
 }
