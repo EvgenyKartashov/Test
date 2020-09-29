@@ -3,4 +3,4 @@
     Port=5432
     Database=testdb
     Username=postgres
-    Password=admin"
+    Password=admin
