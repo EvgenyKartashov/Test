@@ -1,31 +1,34 @@
-<kendo-grid [data]="federalDistricts" [height]="950">
+<kendo-grid 
+[data]="subjects"
+[pageSize]="5"
+[pageable]="true">
   <kendo-grid-column title="№" [width]="50">
     <ng-template kendoGridCellTemplate let-rowIndex="rowIndex">
-      {{ rowIndex + 1 }}
+      {{parentRow + 1}}.{{ rowIndex + 1 }}
     </ng-template>
   </kendo-grid-column>
-  <kendo-grid-column field="name" title="1.1. ФО"> </kendo-grid-column>
+  <kendo-grid-column field="name" title="2.1. Субъект РФ"></kendo-grid-column>
 
   <kendo-grid-column-group
-    title="1.2. Пассажиропоток"
+    title="2.2. Пассажиропоток"
     [headerStyle]="{ 'text-align': 'center' }"
   >
-    <kendo-grid-column-group title="1.2.1. Пол: мужской">
-      <kendo-grid-column field="men_kid" title="1.2.1.1. 0-18 лет"></kendo-grid-column>
-      <kendo-grid-column field="men_adult" title="1.2.1.2. 18-60 лет"></kendo-grid-column>
+    <kendo-grid-column-group title="2.2.1. Пол: мужской">
+      <kendo-grid-column field="men_kid" title="2.2.1.1. 0-18 лет"> </kendo-grid-column>
+      <kendo-grid-column field="men_adult" title="2.2.1.2. 18-60 лет"></kendo-grid-column>
       <kendo-grid-column field="men_senior" title="1.2.1.3. старше 60 лет"></kendo-grid-column>
     </kendo-grid-column-group>
 
-    <kendo-grid-column-group title="1.2.2. Пол: женский">
+    <kendo-grid-column-group title="2.2.2. Пол: женский">
       <kendo-grid-column field="women_kid" title="1.2.2.1. 0-18 лет"></kendo-grid-column>
       <kendo-grid-column field="women_adult" title="1.2.2.2. 18-60 лет"></kendo-grid-column>
       <kendo-grid-column field="women_senior" title="1.2.2.3. старше 60 лет"></kendo-grid-column>
     </kendo-grid-column-group>
 
-    <kendo-grid-column field="sum" title="1.2.3. Итого"></kendo-grid-column>
+    <kendo-grid-column field="sum" title="2.2.3. Итого"> </kendo-grid-column>
   </kendo-grid-column-group>
 
   <ng-template kendoGridDetailTemplate let-dataItem let-rowIndex="rowIndex">
-    <app-grid-subjects [subjects]="dataItem.subjects" [parentRow]="rowIndex"></app-grid-subjects>
+    <app-grid-routes [routes]="dataItem.routes" [mainParentRow]="parentRow" [parentRow]="rowIndex"></app-grid-routes>
   </ng-template>
 </kendo-grid>

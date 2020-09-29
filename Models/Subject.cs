@@ -9,14 +9,14 @@ namespace GridWebApp.Models
 {
     //Субъект РФ
     [Table("subjects")]
-    public class Subject : IModel
+    public class Subject : IModel, IData
     {
         public Subject()
         {
             Cities = new List<City>();
             Routes = new List<Route>();
         }
-        
+
         [JsonProperty("REGION_ID")]
         [Key]
         public long Id { get; set; }
@@ -54,5 +54,10 @@ namespace GridWebApp.Models
         public List<City> Cities { get; set; }
 
         public List<Route> Routes { get; set; }
+
+        public void CalcSum()
+        {
+            Sum = MenKid + MenAdult + MenSenior + WomenKid + WomenAdult + WomenSenior;
+        }
     }
 }

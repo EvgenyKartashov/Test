@@ -1,23 +1,26 @@
-import { HttpClient } from "@angular/common/http";
-import { Component, Inject, OnInit } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+import { FederalDistrict } from "../_models/federal-district";
+import { GridService } from "./grid.service";
 
 @Component({
   selector: "app-grid",
   templateUrl: "./grid.component.html",
   styleUrls: ["./grid.component.css"],
+  providers: [GridService],
 })
 export class GridComponent implements OnInit {
-  private gridData: any[];
+  federalDistricts: FederalDistrict[];
 
-  constructor(http: HttpClient, @Inject("BASE_URL") baseUrl: string) {
-    http.get<any[]>(baseUrl + "app").subscribe(
-      (result) => {
-        this.gridData = result;
-        console.log(this.gridData);
-      },
+  constructor(private gridService: GridService) { }
+
+  ngOnInit() {
+    this.refreshData();
+  }
+
+  refreshData() {
+    this.gridService.getData().subscribe(
+      (result) => (this.federalDistricts = result),  
       (error) => console.error(error)
     );
   }
-
-  ngOnInit() {}
 }

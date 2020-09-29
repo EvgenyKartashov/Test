@@ -9,13 +9,13 @@ namespace GridWebApp.Models
 {
     //Федеральный округ
     [Table("districts")]
-    public class FederalDistrict : IModel
+    public class FederalDistrict : IModel, IData
     {
         public FederalDistrict()
         {
             Subjects = new List<Subject>();
         }
-        
+
         [JsonProperty("REGION_ID")]
         [Key]
         public long Id { get; set; }
@@ -54,5 +54,10 @@ namespace GridWebApp.Models
         public int OperatorId { get; set; }
 
         public List<Subject> Subjects { get; set; }
+
+        public void CalcSum()
+        {
+            Sum = MenKid + MenAdult + MenSenior + WomenKid + WomenAdult + WomenSenior;
+        }
     }
 }

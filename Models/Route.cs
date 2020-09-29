@@ -7,7 +7,7 @@ using GridWebApp.Models.Interfaces;
 namespace GridWebApp.Models
 {
     [Table("routes")]
-    public class Route : IModel
+    public class Route : IModel, IData
     {
         [JsonProperty("ID")]
         [Key]
@@ -56,5 +56,10 @@ namespace GridWebApp.Models
 
         [JsonProperty("CITY_TO")]
         public string CityTo { get; set; }
+
+        public void CalcSum()
+        {
+            Sum = MenKid + MenAdult + MenSenior + WomenKid + WomenAdult + WomenSenior;
+        }
     }
 }

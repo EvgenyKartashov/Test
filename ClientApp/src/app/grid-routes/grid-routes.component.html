@@ -1,0 +1,37 @@
+<kendo-grid 
+[data]="routes"
+[pageSize]="5"
+[pageable]="true">
+  <kendo-grid-column title="№" [width]="60">
+    <ng-template kendoGridCellTemplate let-rowIndex="rowIndex">
+      {{ mainParentRow + 1 }}.{{ parentRow + 1 }}.{{ rowIndex + 1 }}
+    </ng-template>
+  </kendo-grid-column>
+
+  <kendo-grid-column-group
+    title="3.1. Маршрут"
+    [headerStyle]="{ 'text-align': 'center' }"
+  >
+    <kendo-grid-column field="city_from" title="3.1.1. Пункт отпр."></kendo-grid-column>
+    <kendo-grid-column field="city_to" title="3.1.2. Пункт приб."></kendo-grid-column>
+  </kendo-grid-column-group>
+
+  <kendo-grid-column-group
+    title="3.2. Пассажиропоток"
+    [headerStyle]="{ 'text-align': 'center' }"
+  >
+    <kendo-grid-column-group title="3.2.1. Пол: мужской">
+      <kendo-grid-column field="men_kid" title="3.2.1.1. 0-18 лет"> </kendo-grid-column>
+      <kendo-grid-column field="men_adult" title="3.2.1.2. 18-60 лет"></kendo-grid-column>
+      <kendo-grid-column field="men_senior" title="3.2.1.3. старше 60 лет"></kendo-grid-column>
+    </kendo-grid-column-group>
+
+    <kendo-grid-column-group title="3.2.2. Пол: женский">
+      <kendo-grid-column field="women_kid" title="3.2.2.1. 0-18 лет"></kendo-grid-column>
+      <kendo-grid-column field="women_adult" title="3.2.2.2. 18-60 лет"></kendo-grid-column>
+      <kendo-grid-column field="women_senior" title="3.2.2.3. старше 60 лет"></kendo-grid-column>
+    </kendo-grid-column-group>
+
+    <kendo-grid-column field="sum" title="3.2.3. Итого"> </kendo-grid-column>
+  </kendo-grid-column-group>
+</kendo-grid>

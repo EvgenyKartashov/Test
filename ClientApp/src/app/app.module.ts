@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { GridModule } from '@progress/kendo-angular-grid';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GridComponent } from './grid/grid.component';
+import { GridSubjectsComponent } from './grid-subjects/grid-subjects.component';
+import { GridRoutesComponent } from './grid-routes/grid-routes.component';
 
 
 
@@ -15,20 +17,13 @@ import { GridComponent } from './grid/grid.component';
   declarations: [
     AppComponent,
     GridComponent,
-    // NavMenuComponent,
-    // HomeComponent,
-    // CounterComponent,
-    // FetchDataComponent
+    GridSubjectsComponent,
+    GridRoutesComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
-    // RouterModule.forRoot([
-    //   { path: '', component: HomeComponent, pathMatch: 'full' },
-    //   { path: 'counter', component: CounterComponent },
-    //   { path: 'fetch-data', component: FetchDataComponent },
-    // ]),
     GridModule,
     BrowserAnimationsModule
   ],
